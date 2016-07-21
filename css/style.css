@@ -1,5 +1,6 @@
 .picsbar {
 	text-align: center;
+	margin-bottom: 40px;
 }
 
 .picsbar img {
@@ -13,8 +14,16 @@
 	text-align: center;
 }
 
+.info {
+	font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	color: green;
+}
+
 .icons {
 	text-align: center;
+	margin-top: 20px;
 }
 
 .block1 {
@@ -43,16 +52,16 @@
 
 .socialbite {
 	font-family: 'Cookie', cursive;
-	font-size: 100px;
+	font-size: 200px;
 	color: green;
 	letter-spacing: 2px;
 	text-align: center;
 }
 
-
-
-
-
+.table img {
+	width: 100%;
+	margin-top: 100px;
+}
 
 
 
