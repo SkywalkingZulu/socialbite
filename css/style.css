@@ -1,0 +1,80 @@
+.picsbar {
+	text-align: center;
+}
+
+.picsbar img {
+	width: 150px;
+	height: 100px;
+}
+
+.rgr {
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+
+.icons {
+	text-align: center;
+}
+
+.block1 {
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	background-color: #F51D1D;
+	border-radius: 20px;
+}
+
+.block2 {
+	width: 90px;
+	display: inline-block;
+	height: 90px;
+	background-color: #E2ED0E;
+	border-radius: 20px;
+}
+
+.block3 {
+	width: 90px;
+	display: inline-block;
+	height: 90px;
+	background-color: #0CCBE8;
+	border-radius: 20px;
+}
+
+.socialbite {
+	font-family: 'Cookie', cursive;
+	font-size: 100px;
+	color: green;
+	letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
