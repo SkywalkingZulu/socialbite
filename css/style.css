@@ -1,3 +1,8 @@
+.container {
+	width: 1100px;
+	margin: 0 auto;
+}
+
 .picsbar {
 	text-align: center;
 }
@@ -63,11 +68,13 @@
 
 .truck {
 	display: inline-block;
+	text-align: center;
+	font-size: 15px;
 }
 
 .truck img {
-	width: 600px;
-	height: 600px;
+	width: 500px;
+	height: 500px;
 }
 
 .logobar {
@@ -76,11 +83,18 @@
 
 .vendors {
 	display: inline-block;
-	margin: 30px 0 0 100px;
+	margin: 30px 0 0 20px;
 	vertical-align: top;
 	font-family: 'Oswald', sans-serif;
 	font-size: 45px;
 	text-shadow: 2px 2px silver;
+}
+
+.vendors p {
+	font-family: 'Cookie', cursive;
+	margin: 0;
+	font-size: 25px;
+	text-shadow: none;
 }
 
 .vendors img {
@@ -92,6 +106,115 @@
 	text-decoration: none;
 	color: black;
 }
+
+@media screen and (max-width:640px) {
+
+	.container {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.picsbar {
+		text-align: center;
+	}
+
+	.picsbar img {
+		display: none;
+	}
+
+	.rgr {
+		font-family: 'Oswald', sans-serif;
+		font-size: 18px;
+		text-align: center;
+	}
+
+	.info {
+		font-family: 'Oswald', sans-serif;
+		font-size: 25px;
+		text-align: center;
+		color: green;
+	}
+
+	.icons {
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	.block1 {
+		display: inline-block;
+		width: 90px;
+		height: 90px;
+		background-color: #F51D1D;
+		border-radius: 20px;
+	}
+
+	.block2 {
+		width: 90px;
+		display: inline-block;
+		height: 90px;
+		background-color: #E2ED0E;
+		border-radius: 20px;
+	}
+
+	.block3 {
+		width: 90px;
+		display: inline-block;
+		height: 90px;
+		background-color: #0CCBE8;
+		border-radius: 20px;
+	}
+
+	.socialbite {
+		font-family: 'Cookie', cursive;
+		font-size: 100px;
+		color: green;
+		letter-spacing: 2px;
+		text-align: center;
+	}
+
+	.table img {
+		width: 100%;
+	}
+
+	.truck {
+		display: inline-block;
+	}
+
+	.truck img {
+		width: 100%;
+		height: 200px;
+	}
+
+	.logobar {
+		text-align: center;
+	}
+
+	.vendors {
+		display: inline-block;
+		margin: 30px 0 0 50px;
+		vertical-align: top;
+		font-family: 'Oswald', sans-serif;
+		font-size: 30px;
+		text-shadow: 2px 2px silver;
+	}
+
+	.vendors img {
+		width: 50px;
+		height: 25px;
+	}
+
+	.vendors a {
+		text-decoration: none;
+		color: black;
+	}
+}
+
+
+
+
+
+
+
 
 
 
