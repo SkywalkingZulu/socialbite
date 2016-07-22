@@ -61,6 +61,10 @@
 	width: 100%;
 }
 
+.truck {
+	display: inline-block;
+}
+
 .truck img {
 	width: 600px;
 	height: 500px;
@@ -70,7 +74,23 @@
 	text-align: center;
 }
 
+.vendors {
+	display: inline-block;
+	margin: 30px 0 0 100px;
+	vertical-align: top;
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+}
 
+.vendors img {
+	width: 90px;
+	height: 50px;
+	background-color: #F51D1D;
+}
+
+.vendors a {
+	text-decoration: none;
+}
 
 
 
